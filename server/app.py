@@ -16,28 +16,7 @@ def index():
     """Return a string indicating that the API is live."""
 
     return '''
-        <h1>Superheroes API</h1>
-    
-        <h2><code>GET /</code></h2>
-        <p>Returns a welcome message indicating the API is live <em>(This page)</em>.</p>
-    
-        <h2><code>GET /heroes</code></h2>
-        <p>Returns a list of all heroes, excluding their related powers.</p>
-    
-        <h2><code>GET /heroes/&lt;id&gt;</code></h2>
-        <p>Fetches details for a specific hero by their ID. Returns 404 Not Found if the hero is not found.</p>
-    
-        <h2><code>GET /powers</code></h2>
-        <p>Returns a list of all available powers.</p>
-    
-        <h2><code>GET /powers/&lt;id&gt;</code></h2>
-        <p>Returns details of a specific power by ID. Returns 404 Not Found if the power is not found.</p>
-    
-        <h2><code>PATCH /powers/&lt;id&gt;</code></h2>
-        <p>Allows updates to a power's details using a JSON payload. Returns 404 Not Found if the power is not found.</p>
-    
-        <h2><code>POST /hero_powers</code></h2>
-        <p>Creates a new hero-power relationship, with custom strength, using a JSON payload. Returns 400 Bad Request if the JSON payload is invalid.</p>
+    <h1>Super Hero API</h1>
     '''
 
 
